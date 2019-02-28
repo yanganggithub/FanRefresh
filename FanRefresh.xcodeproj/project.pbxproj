@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6651C9C21EAA1B9D008C3E22 /* UIImage+FanRefreshGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6651C9C11EAA1B9D008C3E22 /* UIImage+FanRefreshGIF.swift */; };
+		6651C9C41EAA1BAB008C3E22 /* FanRefreshHeaderGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6651C9C31EAA1BAB008C3E22 /* FanRefreshHeaderGIF.swift */; };
+		6651C9CD1EAA1C39008C3E22 /* loding.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6651C9CB1EAA1C39008C3E22 /* loding.gif */; };
+		6651C9CE1EAA1C39008C3E22 /* loding1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6651C9CC1EAA1C39008C3E22 /* loding1.gif */; };
+		665A003C1F9F194D00136DF3 /* FanRefreshHeaderBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665A003B1F9F194D00136DF3 /* FanRefreshHeaderBubble.swift */; };
+		66901CDE1EB1BD3B00CBF4AD /* FanRefreshFooterGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66901CDD1EB1BD3B00CBF4AD /* FanRefreshFooterGIF.swift */; };
+		6691C76B1E9B2D2500548657 /* FanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6691C76A1E9B2D2500548657 /* FanTableViewController.swift */; };
+		6691C76D1E9B2D5000548657 /* FanWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6691C76C1E9B2D5000548657 /* FanWebViewController.swift */; };
+		6691C76F1E9B360A00548657 /* FanCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6691C76E1E9B360A00548657 /* FanCollectionViewController.swift */; };
+		66A342821E8B61B3002D8F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A342811E8B61B3002D8F83 /* AppDelegate.swift */; };
+		66A342841E8B61B3002D8F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A342831E8B61B3002D8F83 /* ViewController.swift */; };
+		66A342871E8B61B3002D8F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A342851E8B61B3002D8F83 /* Main.storyboard */; };
+		66A342891E8B61B3002D8F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A342881E8B61B3002D8F83 /* Assets.xcassets */; };
+		66A3428C1E8B61B3002D8F83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A3428A1E8B61B3002D8F83 /* LaunchScreen.storyboard */; };
+		66A342971E8B61B3002D8F83 /* FanRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A342961E8B61B3002D8F83 /* FanRefreshTests.swift */; };
+		66A342A21E8B61B3002D8F83 /* FanRefreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A342A11E8B61B3002D8F83 /* FanRefreshUITests.swift */; };
+		66AEE5211E9E132500CCD0C9 /* FanRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AEE5201E9E132500CCD0C9 /* FanRefreshControl.swift */; };
+		66B678FF1E9C92B800B07D47 /* Bundle+FanRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B678F91E9C92B800B07D47 /* Bundle+FanRefresh.swift */; };
+		66B679001E9C92B800B07D47 /* FanRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66B678FA1E9C92B800B07D47 /* FanRefresh.bundle */; };
+		66B679011E9C92B800B07D47 /* FanRefreshComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B678FB1E9C92B800B07D47 /* FanRefreshComponent.swift */; };
+		66B679021E9C92B800B07D47 /* FanRefreshConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B678FC1E9C92B800B07D47 /* FanRefreshConst.swift */; };
+		66B679031E9C92B800B07D47 /* UIScrollView+FanRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B678FD1E9C92B800B07D47 /* UIScrollView+FanRefresh.swift */; };
+		66B679041E9C92B800B07D47 /* UIView+FanExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B678FE1E9C92B800B07D47 /* UIView+FanExtension.swift */; };
+		66B679091E9C92E600B07D47 /* FanRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B679071E9C92E600B07D47 /* FanRefreshFooter.swift */; };
+		66B6790A1E9C92E600B07D47 /* FanRefreshFooterDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B679081E9C92E600B07D47 /* FanRefreshFooterDefault.swift */; };
+		66B6790D1E9C92EE00B07D47 /* FanRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B6790B1E9C92EE00B07D47 /* FanRefreshHeader.swift */; };
+		66B6790E1E9C92EE00B07D47 /* FanRefreshHeaderDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B6790C1E9C92EE00B07D47 /* FanRefreshHeaderDefault.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66A342931E8B61B3002D8F83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66A342761E8B61B3002D8F83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66A3427D1E8B61B3002D8F83;
+			remoteInfo = FanRefresh;
+		};
+		66A3429E1E8B61B3002D8F83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66A342761E8B61B3002D8F83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66A3427D1E8B61B3002D8F83;
+			remoteInfo = FanRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6651C9C11EAA1B9D008C3E22 /* UIImage+FanRefreshGIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+FanRefreshGIF.swift"; sourceTree = "<group>"; };
+		6651C9C31EAA1BAB008C3E22 /* FanRefreshHeaderGIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanRefreshHeaderGIF.swift; sourceTree = "<group>"; };
+		6651C9CB1EAA1C39008C3E22 /* loding.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loding.gif; sourceTree = "<group>"; };
+		6651C9CC1EAA1C39008C3E22 /* loding1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loding1.gif; sourceTree = "<group>"; };
+		665A003B1F9F194D00136DF3 /* FanRefreshHeaderBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanRefreshHeaderBubble.swift; sourceTree = "<group>"; };
+		66901CDD1EB1BD3B00CBF4AD /* FanRefreshFooterGIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanRefreshFooterGIF.swift; sourceTree = "<group>"; };
+		6691C76A1E9B2D2500548657 /* FanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = FanTableViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6691C76C1E9B2D5000548657 /* FanWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanWebViewController.swift; sourceTree = "<group>"; };
+		6691C76E1E9B360A00548657 /* FanCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanCollectionViewController.swift; sourceTree = "<group>"; };
+		66A3427E1E8B61B3002D8F83 /* FanRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A342811E8B61B3002D8F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66A342831E8B61B3002D8F83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66A342861E8B61B3002D8F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66A342881E8B61B3002D8F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66A3428B1E8B61B3002D8F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66A3428D1E8B61B3002D8F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A342921E8B61B3002D8F83 /* FanRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A342961E8B61B3002D8F83 /* FanRefreshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanRefreshTests.swift; sourceTree = "<group>"; };
+		66A342981E8B61B3002D8F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A3429D1E8B61B3002D8F83 /* FanRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A342A11E8B61B3002D8F83 /* FanRefreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanRefreshUITests.swift; sourceTree = "<group>"; };
+		66A342A31E8B61B3002D8F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66AEE5201E9E132500CCD0C9 /* FanRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanRefreshControl.swift; sourceTree = "<group>"; };
+		66B678F91E9C92B800B07D47 /* Bundle+FanRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+FanRefresh.swift"; sourceTree = "<group>"; };
+		66B678FA1E9C92B800B07D47 /* FanRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FanRefresh.bundle; sourceTree = "<group>"; };
+		66B678FB1E9C92B800B07D47 /* FanRefreshComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = FanRefreshComponent.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		66B678FC1E9C92B800B07D47 /* FanRefreshConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanRefreshConst.swift; sourceTree = "<group>"; };
+		66B678FD1E9C92B800B07D47 /* UIScrollView+FanRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+FanRefresh.swift"; sourceTree = "<group>"; };
+		66B678FE1E9C92B800B07D47 /* UIView+FanExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FanExtension.swift"; sourceTree = "<group>"; };
+		66B679071E9C92E600B07D47 /* FanRefreshFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanRefreshFooter.swift; sourceTree = "<group>"; };
+		66B679081E9C92E600B07D47 /* FanRefreshFooterDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanRefreshFooterDefault.swift; sourceTree = "<group>"; };
+		66B6790B1E9C92EE00B07D47 /* FanRefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = FanRefreshHeader.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		66B6790C1E9C92EE00B07D47 /* FanRefreshHeaderDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = FanRefreshHeaderDefault.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66A3427B1E8B61B3002D8F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A3428F1E8B61B3002D8F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A3429A1E8B61B3002D8F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6651C9CA1EAA1C39008C3E22 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6651C9CB1EAA1C39008C3E22 /* loding.gif */,
+				6651C9CC1EAA1C39008C3E22 /* loding1.gif */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6691C7691E9B2D0700548657 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6691C76A1E9B2D2500548657 /* FanTableViewController.swift */,
+				6691C76C1E9B2D5000548657 /* FanWebViewController.swift */,
+				6691C76E1E9B360A00548657 /* FanCollectionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		66A342751E8B61B3002D8F83 = {
+			isa = PBXGroup;
+			children = (
+				66A342AF1E8B61F7002D8F83 /* Classes */,
+				66A342801E8B61B3002D8F83 /* FanRefresh */,
+				66A342951E8B61B3002D8F83 /* FanRefreshTests */,
+				66A342A01E8B61B3002D8F83 /* FanRefreshUITests */,
+				66A3427F1E8B61B3002D8F83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66A3427F1E8B61B3002D8F83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66A3427E1E8B61B3002D8F83 /* FanRefresh.app */,
+				66A342921E8B61B3002D8F83 /* FanRefreshTests.xctest */,
+				66A3429D1E8B61B3002D8F83 /* FanRefreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66A342801E8B61B3002D8F83 /* FanRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				6651C9CA1EAA1C39008C3E22 /* Images */,
+				6691C7691E9B2D0700548657 /* ViewControllers */,
+				66A342811E8B61B3002D8F83 /* AppDelegate.swift */,
+				66A342831E8B61B3002D8F83 /* ViewController.swift */,
+				66A342851E8B61B3002D8F83 /* Main.storyboard */,
+				66A342881E8B61B3002D8F83 /* Assets.xcassets */,
+				66A3428A1E8B61B3002D8F83 /* LaunchScreen.storyboard */,
+				66A3428D1E8B61B3002D8F83 /* Info.plist */,
+			);
+			path = FanRefresh;
+			sourceTree = "<group>";
+		};
+		66A342951E8B61B3002D8F83 /* FanRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				66A342961E8B61B3002D8F83 /* FanRefreshTests.swift */,
+				66A342981E8B61B3002D8F83 /* Info.plist */,
+			);
+			path = FanRefreshTests;
+			sourceTree = "<group>";
+		};
+		66A342A01E8B61B3002D8F83 /* FanRefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66A342A11E8B61B3002D8F83 /* FanRefreshUITests.swift */,
+				66A342A31E8B61B3002D8F83 /* Info.plist */,
+			);
+			path = FanRefreshUITests;
+			sourceTree = "<group>";
+		};
+		66A342AF1E8B61F7002D8F83 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				66B679061E9C92D600B07D47 /* Footer */,
+				66B679051E9C92C100B07D47 /* Header */,
+				66B678F81E9C929C00B07D47 /* Refresh */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		66B678F81E9C929C00B07D47 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				6651C9C11EAA1B9D008C3E22 /* UIImage+FanRefreshGIF.swift */,
+				66B678F91E9C92B800B07D47 /* Bundle+FanRefresh.swift */,
+				66B678FA1E9C92B800B07D47 /* FanRefresh.bundle */,
+				66B678FB1E9C92B800B07D47 /* FanRefreshComponent.swift */,
+				66B678FC1E9C92B800B07D47 /* FanRefreshConst.swift */,
+				66B678FD1E9C92B800B07D47 /* UIScrollView+FanRefresh.swift */,
+				66B678FE1E9C92B800B07D47 /* UIView+FanExtension.swift */,
+			);
+			name = Refresh;
+			sourceTree = "<group>";
+		};
+		66B679051E9C92C100B07D47 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				665A003B1F9F194D00136DF3 /* FanRefreshHeaderBubble.swift */,
+				66AEE5201E9E132500CCD0C9 /* FanRefreshControl.swift */,
+				66B6790B1E9C92EE00B07D47 /* FanRefreshHeader.swift */,
+				66B6790C1E9C92EE00B07D47 /* FanRefreshHeaderDefault.swift */,
+				6651C9C31EAA1BAB008C3E22 /* FanRefreshHeaderGIF.swift */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		66B679061E9C92D600B07D47 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				66B679071E9C92E600B07D47 /* FanRefreshFooter.swift */,
+				66B679081E9C92E600B07D47 /* FanRefreshFooterDefault.swift */,
+				66901CDD1EB1BD3B00CBF4AD /* FanRefreshFooterGIF.swift */,
+			);
+			name = Footer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66A3427D1E8B61B3002D8F83 /* FanRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A342A61E8B61B3002D8F83 /* Build configuration list for PBXNativeTarget "FanRefresh" */;
+			buildPhases = (
+				66A3427A1E8B61B3002D8F83 /* Sources */,
+				66A3427B1E8B61B3002D8F83 /* Frameworks */,
+				66A3427C1E8B61B3002D8F83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FanRefresh;
+			productName = FanRefresh;
+			productReference = 66A3427E1E8B61B3002D8F83 /* FanRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66A342911E8B61B3002D8F83 /* FanRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A342A91E8B61B3002D8F83 /* Build configuration list for PBXNativeTarget "FanRefreshTests" */;
+			buildPhases = (
+				66A3428E1E8B61B3002D8F83 /* Sources */,
+				66A3428F1E8B61B3002D8F83 /* Frameworks */,
+				66A342901E8B61B3002D8F83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66A342941E8B61B3002D8F83 /* PBXTargetDependency */,
+			);
+			name = FanRefreshTests;
+			productName = FanRefreshTests;
+			productReference = 66A342921E8B61B3002D8F83 /* FanRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66A3429C1E8B61B3002D8F83 /* FanRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A342AC1E8B61B3002D8F83 /* Build configuration list for PBXNativeTarget "FanRefreshUITests" */;
+			buildPhases = (
+				66A342991E8B61B3002D8F83 /* Sources */,
+				66A3429A1E8B61B3002D8F83 /* Frameworks */,
+				66A3429B1E8B61B3002D8F83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66A3429F1E8B61B3002D8F83 /* PBXTargetDependency */,
+			);
+			name = FanRefreshUITests;
+			productName = FanRefreshUITests;
+			productReference = 66A3429D1E8B61B3002D8F83 /* FanRefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66A342761E8B61B3002D8F83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "凡向阳";
+				TargetAttributes = {
+					66A3427D1E8B61B3002D8F83 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = NW3X9NZ9UP;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+					66A342911E8B61B3002D8F83 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = NW3X9NZ9UP;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66A3427D1E8B61B3002D8F83;
+					};
+					66A3429C1E8B61B3002D8F83 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = NW3X9NZ9UP;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66A3427D1E8B61B3002D8F83;
+					};
+				};
+			};
+			buildConfigurationList = 66A342791E8B61B3002D8F83 /* Build configuration list for PBXProject "FanRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66A342751E8B61B3002D8F83;
+			productRefGroup = 66A3427F1E8B61B3002D8F83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66A3427D1E8B61B3002D8F83 /* FanRefresh */,
+				66A342911E8B61B3002D8F83 /* FanRefreshTests */,
+				66A3429C1E8B61B3002D8F83 /* FanRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66A3427C1E8B61B3002D8F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A3428C1E8B61B3002D8F83 /* LaunchScreen.storyboard in Resources */,
+				66B679001E9C92B800B07D47 /* FanRefresh.bundle in Resources */,
+				66A342891E8B61B3002D8F83 /* Assets.xcassets in Resources */,
+				6651C9CE1EAA1C39008C3E22 /* loding1.gif in Resources */,
+				6651C9CD1EAA1C39008C3E22 /* loding.gif in Resources */,
+				66A342871E8B61B3002D8F83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A342901E8B61B3002D8F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A3429B1E8B61B3002D8F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66A3427A1E8B61B3002D8F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B6790A1E9C92E600B07D47 /* FanRefreshFooterDefault.swift in Sources */,
+				66A342841E8B61B3002D8F83 /* ViewController.swift in Sources */,
+				66B679091E9C92E600B07D47 /* FanRefreshFooter.swift in Sources */,
+				66901CDE1EB1BD3B00CBF4AD /* FanRefreshFooterGIF.swift in Sources */,
+				6691C76D1E9B2D5000548657 /* FanWebViewController.swift in Sources */,
+				66A342821E8B61B3002D8F83 /* AppDelegate.swift in Sources */,
+				66B679021E9C92B800B07D47 /* FanRefreshConst.swift in Sources */,
+				66B6790E1E9C92EE00B07D47 /* FanRefreshHeaderDefault.swift in Sources */,
+				6691C76F1E9B360A00548657 /* FanCollectionViewController.swift in Sources */,
+				6691C76B1E9B2D2500548657 /* FanTableViewController.swift in Sources */,
+				66B678FF1E9C92B800B07D47 /* Bundle+FanRefresh.swift in Sources */,
+				66B679011E9C92B800B07D47 /* FanRefreshComponent.swift in Sources */,
+				66B679041E9C92B800B07D47 /* UIView+FanExtension.swift in Sources */,
+				6651C9C21EAA1B9D008C3E22 /* UIImage+FanRefreshGIF.swift in Sources */,
+				66AEE5211E9E132500CCD0C9 /* FanRefreshControl.swift in Sources */,
+				6651C9C41EAA1BAB008C3E22 /* FanRefreshHeaderGIF.swift in Sources */,
+				665A003C1F9F194D00136DF3 /* FanRefreshHeaderBubble.swift in Sources */,
+				66B679031E9C92B800B07D47 /* UIScrollView+FanRefresh.swift in Sources */,
+				66B6790D1E9C92EE00B07D47 /* FanRefreshHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A3428E1E8B61B3002D8F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A342971E8B61B3002D8F83 /* FanRefreshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A342991E8B61B3002D8F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A342A21E8B61B3002D8F83 /* FanRefreshUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66A342941E8B61B3002D8F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66A3427D1E8B61B3002D8F83 /* FanRefresh */;
+			targetProxy = 66A342931E8B61B3002D8F83 /* PBXContainerItemProxy */;
+		};
+		66A3429F1E8B61B3002D8F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66A3427D1E8B61B3002D8F83 /* FanRefresh */;
+			targetProxy = 66A3429E1E8B61B3002D8F83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66A342851E8B61B3002D8F83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A342861E8B61B3002D8F83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66A3428A1E8B61B3002D8F83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A3428B1E8B61B3002D8F83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66A342A41E8B61B3002D8F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66A342A51E8B61B3002D8F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66A342A71E8B61B3002D8F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NW3X9NZ9UP;
+				INFOPLIST_FILE = FanRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		66A342A81E8B61B3002D8F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NW3X9NZ9UP;
+				INFOPLIST_FILE = FanRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		66A342AA1E8B61B3002D8F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NW3X9NZ9UP;
+				INFOPLIST_FILE = FanRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanRefresh.app/FanRefresh";
+			};
+			name = Debug;
+		};
+		66A342AB1E8B61B3002D8F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NW3X9NZ9UP;
+				INFOPLIST_FILE = FanRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanRefresh.app/FanRefresh";
+			};
+			name = Release;
+		};
+		66A342AD1E8B61B3002D8F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NW3X9NZ9UP;
+				INFOPLIST_FILE = FanRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = FanRefresh;
+			};
+			name = Debug;
+		};
+		66A342AE1E8B61B3002D8F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NW3X9NZ9UP;
+				INFOPLIST_FILE = FanRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = FanRefresh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66A342791E8B61B3002D8F83 /* Build configuration list for PBXProject "FanRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A342A41E8B61B3002D8F83 /* Debug */,
+				66A342A51E8B61B3002D8F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66A342A61E8B61B3002D8F83 /* Build configuration list for PBXNativeTarget "FanRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A342A71E8B61B3002D8F83 /* Debug */,
+				66A342A81E8B61B3002D8F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66A342A91E8B61B3002D8F83 /* Build configuration list for PBXNativeTarget "FanRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A342AA1E8B61B3002D8F83 /* Debug */,
+				66A342AB1E8B61B3002D8F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66A342AC1E8B61B3002D8F83 /* Build configuration list for PBXNativeTarget "FanRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A342AD1E8B61B3002D8F83 /* Debug */,
+				66A342AE1E8B61B3002D8F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66A342761E8B61B3002D8F83 /* Project object */;
+}
